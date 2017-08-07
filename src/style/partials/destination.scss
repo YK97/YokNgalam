@@ -1,0 +1,338 @@
+.destination {
+    height: 1450px;
+    background: #f2fefe;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 35px;
+
+    .destination_top_block {
+        height: 280px;
+        .col-md-7 {
+            padding-left: 20px;
+            padding-right: 0;
+            h1 {
+                font-family: 'ChunkFive', sans-serif;
+                font-size: 67px;
+                color: #29d9c2;
+                margin-top: 60px;
+                span {
+                    color: #01a2a6;
+                }
+            }
+            p {
+                color: #777777;
+                font-weight: 400;
+                margin-top: 45px;
+            }
+        }
+        .col-md-3 {
+            text-align: right;
+            margin-top: 80px;
+            padding-right: 0;
+            a {
+                color: #c1c1c1;   
+                font-weight: 500;
+                text-decoration: none;
+                &:hover {
+                    color: #8e8b8b;
+                    transition: 0.4s;
+                }
+            }
+        }
+    }
+
+    .destination_search_block {
+        height: 70px;
+        .col-md-3 {
+            margin-top: 25px;
+            .destination_search {
+                input {
+                    width: 235px;
+                    background: url(/img/search.png) no-repeat 12px 12px #ffffff;
+                    font-family: 'Lato', sans-serif;
+                    font-size: 14px;
+                    color: #b5b5b5;
+                    font-weight: 400;
+                    font-style: italic;
+                    padding: 2px 10px 2px 40px;
+                    border: 1px solid #e8e8e8;
+                    border-radius: 30px;
+                    outline: none;
+                }
+            }
+        }
+        .col-md-4 {
+            text-align: right;
+            margin-top: 25px;
+            a {
+                font-weight: 700;
+                text-transform: uppercase;
+                text-decoration: none;
+                &:first-child {
+                    color: #777777;
+                }
+                &:last-child {
+                    color: #aeaeae;
+                    &:hover {
+                        color: #777777; 
+                        transition: 0.6s;
+                    }
+                }
+            }
+        }
+    }
+
+    .destination_batu {
+        height: 540px;
+        .col-md-7 {
+            height: 515px;
+            background: url(/img/destination_batu_cover.png) no-repeat;
+            background-size: contain;
+            margin-top: 15px;
+            .destination_border {
+                border: 12px solid transparent;
+                width: 0px;
+                height: 0px;
+                border-right-color: #f2fefe;
+                background-color: transparent;    
+                position: absolute;
+                right: 0;    
+                top: 260px;            
+            }
+            .destination_shadow {
+                width: 200px;
+                height: 130px;
+                position: absolute;
+                overflow: hidden;  
+                background: transparent;
+                bottom: 0;
+                right: 0;
+                &:after {
+                    content: '';
+                    height: 10px;
+                    width: 90px;
+                    position: absolute;
+                    background: transparent;
+                    border-radius: 50%;
+                    box-shadow: 0px 0px 85px 50px rgba(0,0,0,0.57);
+                    bottom: -10px;
+                    right: -10px;
+                }
+            }
+            a {
+                color: #ffffff;
+                font-weight: 700;
+                text-decoration: none;
+                position: absolute;
+                bottom: 8px;
+                right: 17px;
+                &:hover {
+                    color: #d1e7f9;
+                    transition: 0.6s;
+                }
+            }
+        }
+        .col-md-5 {
+            height: 515px;
+            background: url(/img/destination_batu.png) no-repeat;
+            background-size: contain;
+            position: relative;  
+            padding-left: 40px;
+            margin-top: 15px;
+            img {
+                margin-top: 65px;
+            }
+            h1 {
+                font-size: 30px;
+                color: #01a2a6;
+                margin-top: 30px;    
+            } 
+            p {
+                width: 370px;
+                color: #777777;
+                line-height: 35px;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .destination_bromo{
+        height: 370px;
+        .col-md-7{
+            display: block;
+            float: left;
+            height: 350px;
+            padding-left: 0;
+            margin-top: 15px;
+            .bromo_information{
+                background: url(/img/destination_bromo.png) no-repeat;
+                background-size: cover;
+                padding-left: 25px;
+                width: 49%;
+                position: relative;
+                @extend .col-md-7;
+                img {
+                    margin-top: 35px;
+                }
+                h1 {
+                    font-size: 30px;
+                    color: #01a2a6;
+                    margin-top: 20px;    
+                    font-weight: 300;
+                } 
+                p {
+                    width: 270px;
+                    color: #777777;
+                    line-height: 35px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    span{
+                        font-weight: 700;
+                    }
+                }
+            }
+            .bromo_cover{
+                background: url(/img/destination_bromo_cover.png) no-repeat;
+                background-size: cover;
+                width: 51%;
+                position: relative;
+                @extend .col-md-7;
+                .destination_bromo_border {
+                    border: 12px solid transparent;
+                    width: 0px;
+                    height: 0px;
+                    border-left-color: #faf8f7;
+                    background-color: transparent;    
+                    position: absolute;
+                    left: 0;    
+                    top: 160px;            
+                }
+                .destination_bromo_shadow {
+                    width: 200px;
+                    height: 130px;
+                    position: absolute;
+                    overflow: hidden;  
+                    background: transparent;
+                    bottom: 0;
+                    right: 0;
+                    &:after {
+                        content: '';
+                        height: 10px;
+                        width: 90px;
+                        position: absolute;
+                        background: transparent;
+                        border-radius: 50%;
+                        box-shadow: 0px 0px 85px 50px rgba(0,0,0,0.57);
+                        bottom: -10px;
+                        right: -10px;
+                    }
+                }
+                a {
+                    color: #ffffff;
+                    font-weight: 700;
+                    text-decoration: none;
+                    position: absolute;
+                    bottom: 8px;
+                    right: 17px;
+                    &:hover {
+                        color: #ffcba2;
+                        transition: 0.6s;
+                    }
+                }   
+            }
+        }
+        .col-md-5{
+            height: 350px;
+            padding-left: 0;
+            margin-top: 30px;
+            .destination_more{
+                background: url(/img/destination_more_cover.png) no-repeat;
+                background-size: cover;                      height: 350px;
+                padding-left: 0;
+                position: relative;
+                .destination_more_circle{
+                    height: 155px;
+                    width: 155px;
+                    border-radius: 100px;
+                    background: rgba(255,255,255,0.85);
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    margin: auto;
+                    img{
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        bottom: 0;
+                        left: 0;
+                        margin: auto;
+                    }
+                }
+                .destination_more_shadow {
+                    width: 200px;
+                    height: 130px;
+                    position: absolute;
+                    overflow: hidden;  
+                    background: transparent;
+                    bottom: 0px;
+                    right: 0px;
+                    &:after {
+                        content: '';
+                        height: 10px;
+                        width: 90px;
+                        position: absolute;
+                        background: transparent;
+                        border-radius: 50%;
+                        box-shadow: 0px 0px 85px 50px rgba(0,0,0,0.57);
+                        bottom: -10px;
+                        right: -10px;
+                    }
+                }
+                a {
+                    color: #ffffff;
+                    font-weight: 700;
+                    text-decoration: none;
+                    position: absolute;
+                    bottom: 8px;
+                    right: 17px;
+                    &:hover {
+                        color: #d1e7f9;
+                        transition: 0.6s;
+                    }
+                }    
+            }
+        }    
+    }
+
+    .destination_numbers{
+        .col-md-12{
+            text-align: center;
+            margin-top: 70px;
+            font-family: 'ChunkFive', sans-serif;
+            font-size: 18px;
+
+            li {
+                display: inline-block;
+                list-style: none;
+                padding: 10px 10px;
+            }
+            a {
+                text-decoration: none; 
+                color: #acacac;
+                 &:hover {
+                    font-size:24px;
+                    color: #01a2a6;
+                    transition:0.6s;
+                }
+            }
+            .active{
+                font-family: 'ChunkFive', sans-serif;
+                text-decoration: none;
+                font-size:24px;
+                color: #01a2a6;
+            }
+        }
+    }
+}

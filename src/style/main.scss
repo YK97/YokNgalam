@@ -1,0 +1,116 @@
+/*
+* Third Party
+*/
+@import "./bower_components/bootstrap-sass/assets/stylesheets/bootstrap.scss";
+@import "./bower_components/font-awesome/css/font-awesome.css";
+@import "./bower_components/normalize-css/normalize.css";
+/*
+* Custom
+*/
+@import "partials/header";
+@import "partials/destination";
+@import "partials/contact";
+@import "partials/footer";
+@import "partials/fonts";
+
+.city_of_love {
+    .container {
+        background: rgba(255,255,255,0.9);
+        height: 495px;
+        margin-top: -45px;
+        .col-md-5 {
+            height: 265px;
+            background: url(/img/cityoflove.png) no-repeat;
+            background-size: contain;
+            margin-top: 120px;
+        }
+        .col-md-6 {                
+            text-align: left;
+            margin-top: 125px;
+            padding-right: 0;
+            h1 {
+                font-family: 'ChunkFive', sans-serif;
+                font-size: 60px;
+                color: #29d9c2;
+                span {
+                    color: #01a2a6;
+                }
+            }
+            p {
+                font-family: 'Lato', sans-serif;
+                font-size: 16px;
+                color: #777777;
+                line-height: 35px;
+                font-weight: 400;
+                margin-top: 45px;
+            }
+        }
+    }
+}
+
+.keepit {
+    background-image: url(/img/keepit_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 195px;
+    &:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .col-md-6 {
+        text-align: left;
+        padding-left:0;
+        h1 {
+            font-family: 'ChunkFive', sans-serif;
+            font-size: 67px;
+            color: #ffffff;
+            margin-top: 50px;
+        }
+        h2 {
+            font-family: 'Lato', sans-serif;
+            font-size: 16px;
+            color: #ffffff;
+            margin-top: 10px;
+        }
+    }
+    .col-md-5 {
+        margin-top: 65px;
+        text-align:right;
+        padding-right:0;
+        form {
+            width: 400px;
+            .keepit_search {
+                font-family: 'Lato', sans-serif;
+                font-size: 14px;
+                color: #b5b5b5;
+                font-weight: 500;
+                font-style: italic;
+                width: 390px;
+                height: 50px;
+                background: #ffffff;
+                border: 1px solid #7ca83f;
+                padding-left: 15px;
+                border-radius: 5px;
+                outline: none;
+            }
+            .keepit_button {
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+                border: 1px solid #7ca83f;
+                border-left: none;
+                background: #01a2a6;
+                height: 50px;
+                width: 50px;
+                color: #ffffff;
+                font-size: 16px;
+                margin-left: -50px;
+                &:hover {
+                    outline: none;
+                    background: #09878a;
+                    transition: 0.6s;
+                }
+            }
+        }
+    }
+}
