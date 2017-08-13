@@ -9,7 +9,7 @@
         display: block;
         clear: both;
     }
-    .col-md-3 {
+    .footer_block {
         .footer_menu {
             padding-top: 15px;
             li {
@@ -35,8 +35,8 @@
             }
         }
     }
-    .col-md-4 {
-        .footer_blank {
+    .footer_sign_block {
+        .footer_sign {
             height: 240px;
         }
         p {
@@ -49,7 +49,7 @@
             
         }  
     }
-    .col-md-3 {
+    .footer_tags_block {
         .footer_tags {
             li {
                 display: block;

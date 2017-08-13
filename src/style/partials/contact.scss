@@ -12,7 +12,7 @@
 
     .contact_block {
         height: 150px;
-        .col-md-12 {
+        .contact_headline {
         margin-top: 75px;
             h1 {
                 font-family: 'ChunkFive', sans-serif;
@@ -24,7 +24,7 @@
     }
     .contact_search_block{
         margin-top: 100px;
-        .col-md-5 {
+        .contact_search {
             .contact_your_email {
                 margin-bottom: 20px;             
                 input {
@@ -125,7 +125,7 @@
                 }
             }
         }
-        .col-md-2 {
+        .contact_or {
             text-align: center;
             font-family: 'Montserrat', sans-serif;
             font-size: 14px;
@@ -134,7 +134,7 @@
             text-transform: uppercase;
             margin-top:100px;
         }
-        .col-md-5:last-child {
+        .contact_find {
             font-family: 'Lato', sans-serif;
             text-align: left;
             h1 {

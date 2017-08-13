@@ -1,0 +1,84 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .header {
+        .header_block {
+            .header_nav {
+                margin-top: 40px;
+                li {
+                    margin: 0;
+                }
+            }
+        }
+    }   
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .header {
+        .header_block {
+            .header_logo {
+                h1 {
+                    font-size: 22px;
+                }
+            }
+            .header_nav {
+                font-size: 12px;                
+                margin-top: 40px;
+                li {
+                    padding: 10px 10px;
+                    margin: 0;
+                }
+            }
+            .header_profile {
+                a {
+                    margin-left: 3px;
+                }
+            }
+        }
+    }    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .header {
+        .header_block {
+            .header_logo {
+                h1 {
+                    font-size: 16px;
+                    text-align:right;
+                }
+            }
+            .header_nav {
+                font-size: 10px;                
+                margin-top: 40px;
+                li {
+                    padding: 8px 8px;
+                    margin: 0;
+                }
+            }
+            .header_profile {
+                text-align:left;
+                a {
+                    margin-left: 3px;
+                }
+            }
+        }
+        .header_headline {
+            h1 {
+                font-size:45px;
+                line-height: 45px; 
+            }
+            h2 {
+                font-size: 14px;
+            }
+        }
+        .header_button {
+            a {
+                font-size: 12px;
+                padding: 15px 25px;
+            }
+        }
+    }    
+}

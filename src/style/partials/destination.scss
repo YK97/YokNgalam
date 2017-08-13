@@ -7,7 +7,7 @@
 
     .destination_top_block {
         height: 280px;
-        .col-md-7 {
+        .destination_headline {
             padding-left: 20px;
             padding-right: 0;
             h1 {
@@ -25,7 +25,7 @@
                 margin-top: 45px;
             }
         }
-        .col-md-3 {
+        .destination_basic {
             text-align: right;
             margin-top: 80px;
             padding-right: 0;
@@ -43,9 +43,9 @@
 
     .destination_search_block {
         height: 70px;
-        .col-md-3 {
+        .destination_search {
             margin-top: 25px;
-            .destination_search {
+            .destination_search_form {
                 input {
                     width: 235px;
                     background: url(/img/search.png) no-repeat 12px 12px #ffffff;
@@ -61,7 +61,7 @@
                 }
             }
         }
-        .col-md-4 {
+        .destination_recomended {
             text-align: right;
             margin-top: 25px;
             a {
@@ -84,10 +84,10 @@
 
     .destination_batu {
         height: 540px;
-        .col-md-7 {
+        .destination_batu_block {
             height: 515px;
             background: url(/img/destination_batu_cover.png) no-repeat;
-            background-size: contain;
+            background-size: cover;
             margin-top: 15px;
             .destination_border {
                 border: 12px solid transparent;
@@ -132,10 +132,10 @@
                 }
             }
         }
-        .col-md-5 {
+        .destination_batu_info {
             height: 515px;
             background: url(/img/destination_batu.png) no-repeat;
-            background-size: contain;
+            background-size: cover;
             position: relative;  
             padding-left: 40px;
             margin-top: 15px;
@@ -156,21 +156,21 @@
         }
     }
 
-    .destination_bromo{
+    .destination_bromo {
         height: 370px;
-        .col-md-7{
+        .destination_bromo_block {
             display: block;
             float: left;
             height: 350px;
             padding-left: 0;
             margin-top: 15px;
-            .bromo_information{
+            .bromo_information {
                 background: url(/img/destination_bromo.png) no-repeat;
                 background-size: cover;
                 padding-left: 25px;
                 width: 49%;
                 position: relative;
-                @extend .col-md-7;
+                @extend .destination_bromo_block;
                 img {
                     margin-top: 35px;
                 }
@@ -191,12 +191,12 @@
                     }
                 }
             }
-            .bromo_cover{
+            .bromo_cover {
                 background: url(/img/destination_bromo_cover.png) no-repeat;
                 background-size: cover;
                 width: 51%;
                 position: relative;
-                @extend .col-md-7;
+                @extend .destination_bromo_block;
                 .destination_bromo_border {
                     border: 12px solid transparent;
                     width: 0px;
@@ -241,16 +241,16 @@
                 }   
             }
         }
-        .col-md-5{
+        .destination_more_block {
             height: 350px;
             padding-left: 0;
             margin-top: 30px;
-            .destination_more{
+            .destination_more {
                 background: url(/img/destination_more_cover.png) no-repeat;
                 background-size: cover;                      height: 350px;
                 padding-left: 0;
                 position: relative;
-                .destination_more_circle{
+                .destination_more_circle {
                     height: 155px;
                     width: 155px;
                     border-radius: 100px;
@@ -261,7 +261,7 @@
                     bottom: 0;
                     left: 0;
                     margin: auto;
-                    img{
+                    img {
                         position: absolute;
                         top: 0;
                         right: 0;
@@ -307,7 +307,7 @@
     }
 
     .destination_numbers{
-        .col-md-12{
+        .destination_numbers_block {
             text-align: center;
             margin-top: 70px;
             font-family: 'ChunkFive', sans-serif;

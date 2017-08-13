@@ -1,0 +1,238 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .destination {
+        .destination_top_block {
+            .destination_headline {
+                p {
+                    margin-top: 25px;
+                }
+            }
+        }
+        .destination_recomended {
+            font-size: 14px;
+        }
+        .destination_batu {
+            .destination_batu_info {
+                h1 {
+                    font-size: 24px;
+                }
+                p {
+                    font-size: 14px;
+                    padding-right: 10px;
+                }
+            }
+        }
+        .destination_bromo {
+            .destination_bromo_block {
+                .bromo_information {
+                    p {
+                    width:100%;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .destination {
+        height: 1200px;
+        .destination_top_block {
+            .destination_headline {
+                h1 {
+                    font-size: 45px;
+                }
+                p {
+                    font-size: 14px;
+                    margin-top: 15px;
+                }
+            }
+            .destination_basic { 
+                margin-top: 60px;
+                font-size: 14px;
+            }
+        }
+        .destination_search_block {
+            .destination_search {
+                margin-top: 15px;
+                .destination_search_form {
+                    input { 
+                        width: 200px;
+                        font-size: 12px;
+                        padding: 1px 10px 1px 35px;
+                    } 
+                }
+            }
+            .destination_recomended {
+                margin-top: 15px;
+                font-size: 12px;
+            }
+        }
+        .destination_batu {
+            height: 400px;
+            .destination_batu_block {
+                height: 365px;    
+                .destination_border { 
+                    top: 180px;
+                }
+            }
+            .destination_batu_info {
+                height: 365px;
+                padding-left: 20px;
+                img {
+                    margin-top: 30px;
+                }
+                h1 {
+                    font-size: 20px;
+                    margin-top: 20px;
+                }
+                p {
+                    width:100%;
+                    font-size: 12px;
+                    line-height: 25px;
+                }
+            }
+        }
+        .destination_bromo {
+            height: 300px;
+            .destination_bromo_block {
+                height: 280px;
+                margin-top: 5px;
+                .bromo_information {
+                    img {
+                        margin-top: 15px;
+                    }
+                    h1 {
+                        font-size: 24px;
+                        margin-top: 10px;
+                    }
+                    p {
+                        font-size: 12px;
+                    width:100%;
+                        line-height: 25px;
+                    }
+                }
+                .bromo_cover {
+                    .destination_bromo_border { 
+                        top: 120px;
+                    }
+   
+                }
+            }
+            .destination_more_block { 
+                height: 300px;
+                margin-top: 10px;
+                .destination_more {
+                    height:280px;
+                }
+            }
+        }
+        .destination_numbers {
+            .destination_numbers_block {
+                margin-top: 40px;
+            }
+        }
+    }  
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .destination {
+        height: 1150px;
+        .destination_top_block {
+            .destination_headline {
+                h1 {
+                    font-size: 40px;
+                }
+                p {
+                    font-size: 12px;
+                    margin-top: 10px;
+                    line-height: 25px;
+                }
+            }
+            .destination_basic { 
+                margin-top: 65px;
+                font-size: 12px;
+            }
+        }
+        .destination_search_block {
+            .destination_search {
+                margin-top: 15px;
+                .destination_search_form {
+                    input { 
+                        width: 300px;
+                        font-size: 12px;
+                        padding: 1px 10px 1px 35px;
+                    } 
+                }
+            }
+            .destination_recomended {
+                margin-top: 15px;
+                font-size: 10px;
+            }
+        }
+        .destination_batu {
+            height: 380px;
+            .destination_batu_block {
+                height: 355px;    
+                .destination_border { 
+                    top: 170px;
+                }
+            }
+            .destination_batu_info {
+                height: 365px;
+                padding-left: 20px;
+                img {
+                    margin-top: 30px;
+                }
+                h1 {
+                    font-size: 20px;
+                    margin-top: 20px;
+                }
+                p {
+                    width:100%;
+                    font-size: 12px;
+                    line-height: 20px;
+                }
+            }
+        }
+        .destination_bromo {
+            height: 300px;
+            .destination_bromo_block {
+                height: 300px;
+                margin-top: 5px;
+                .bromo_information {
+                    img {
+                        margin-top: 15px;
+                    }
+                    h1 {
+                        font-size: 24px;
+                        margin-top: 10px;
+                    }
+                    p {
+                        font-size: 12px;
+                    width:100%;
+                        line-height: 25px;
+                    }
+                }
+                .bromo_cover {
+                    .destination_bromo_border { 
+                        top: 120px;
+                    }
+   
+                }
+            }
+            .destination_more_block { 
+                height: 300px;
+                margin-top: 10px;
+                .destination_more {
+                    height:300px;
+                }
+            }
+        }
+    }  
+}
